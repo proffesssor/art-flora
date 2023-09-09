@@ -23,3 +23,12 @@ mobileNavButton.addEventListener("click", function(){
     mobileNav.classList.toggle('active');
     document.body.classList.toggle('no-scroll');
 });
+
+document.querySelector('.mobile-nav-list').querySelectorAll('a').forEach(item =>{
+    item.addEventListener('click', ()=>{
+        mobileNavButton.classList.toggle('active');
+        mobileNavIcon.classList.toggle('active');
+        mobileNav.classList.toggle('active');
+        document.body.classList.toggle('no-scroll');
+    });
+});
