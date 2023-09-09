@@ -16,6 +16,7 @@ header .container{
     left: 0;
     width: 130px;
     height: 85px;
+    overflow: hidden;
 }
 
 .header__logo img{
