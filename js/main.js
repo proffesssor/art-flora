@@ -12,3 +12,14 @@ document.querySelectorAll('.projects__img').forEach(item =>{
         }
     });
 });
+
+const mobileNavButton = document.querySelector(".mobile-nav-button");
+const mobileNavIcon = document.querySelector(".mobile-nav-button__icon");
+const mobileNav = document.querySelector(".mobile-nav");
+
+mobileNavButton.addEventListener("click", function(){
+    mobileNavButton.classList.toggle('active');
+    mobileNavIcon.classList.toggle('active');
+    mobileNav.classList.toggle('active');
+    document.body.classList.toggle('no-scroll');
+});

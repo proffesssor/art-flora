@@ -58,12 +58,6 @@ body {
     }
 }
 
-/* @media (max-width: 991px){
-    body{
-        font-size: 18px;
-    }
-} */
-
 .no-scroll{
     overflow: hidden;
 }

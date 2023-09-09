@@ -2,7 +2,7 @@ header{
     position: absolute;
     width: 100%;
     height: 120px;
-    z-index: 99;
+    z-index: 9;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 0.01%, rgba(0, 0, 0, 0.55) 0.02%, rgba(0, 0, 0, 0.55) 9.38%, rgba(0, 0, 0, 0.26) 68.75%, rgba(0, 0, 0, 0.00) 100%);
 }
 
@@ -465,6 +465,37 @@ h1{
 
 .designer__img.mobile{
     display: none;
+}
+
+.mobile-nav{
+    display: none;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(234, 242, 229, 1);
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 15px;
+}
+
+.mobile-nav.active{
+    display: flex;
+}
+
+.mobile-nav-list{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.mobile-nav-list li{
+    margin-bottom: 15px;
 }
 
 @media (max-width: 1399px){
