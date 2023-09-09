@@ -765,6 +765,9 @@ h1{
         top: 30px;
         font-size: 28px;
     }
+    .projects__subtitle{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 599px){
@@ -1020,6 +1023,10 @@ h1{
     }
     .contacts__card{
         margin-right: 0 !important;
+    }
+    .projects__subtitle{
+        font-size: 10px;
+        left: 10px;
     }
 }
 
