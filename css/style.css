@@ -676,7 +676,7 @@ h1{
         display: none;
     }
     .designer__wrapper{
-        margin-right: 30px;
+        margin-right: 40px;
     }
     .experience{
         padding-top: 60px;
@@ -790,9 +790,6 @@ h1{
         font-size: 15px;
         margin: 0 auto;
     }
-    .designer__wrapper{
-        margin-right: 15px;
-    }
     .services__card:nth-child(2n + 1){
         margin-bottom: 20px;
         margin-right: 20px;
@@ -866,6 +863,26 @@ h1{
         top: 20px;
         left: 50px;
     }
+    .designer__img.mobile{
+        width: 180px;
+        height: 230px;
+    }
+    .designer__title{
+        font-size: 32px;
+    }
+    .designer__role{
+        font-size: 16px;
+    }
+    .designer__subtitle{
+        position: relative;
+        right: 30%;
+    }
+}
+
+@media (max-width: 469px){
+    .designer__subtitle{
+        right: 20%;
+    }
 }
 
 @media (max-width: 434px){
@@ -920,6 +937,9 @@ h1{
         line-height: 48px;
         font-size: 18px;    
     }
+    .designer__subtitle{
+        right: 15%;
+    }
 }
 
 @media (max-width: 399px){
@@ -927,7 +947,7 @@ h1{
         width: 300px;
     }
     .mission .block__title{
-        font-size: 24px;
+        font-size: 26px;
     }
     .mission__subtitle{
         font-size: 13px;
@@ -1032,15 +1052,14 @@ h1{
         font-size: 10px;
         left: 10px;
     }
+    .designer__title{
+        font-size: 26px;
+    }
 }
 
 @media (max-width: 374px){
     .designer__figure.figure1{
         height: 350px;
-    }
-    .designer__img.mobile{
-        width: 220px;
-        height: 250px;
     }
     .designer__subtitle{
         width: 220px;
@@ -1075,5 +1094,11 @@ h1{
     .contacts .block__title{
         top: 15px;
         font-size: 22px;
+    }
+
+    @media (max-width:350px){
+        .designer__subtitle{
+            right: 10%;
+        }
     }
 }
