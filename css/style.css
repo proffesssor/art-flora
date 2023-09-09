@@ -367,6 +367,10 @@ h1{
     margin-top: 10px;
 }
 
+.stages .row{
+    align-items: baseline;
+}
+
 .stages__number{
     text-align: center;
     margin-left: 0;
