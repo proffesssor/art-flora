@@ -46,9 +46,10 @@ header .container{
     width: 80px;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 
-.header__links img{
+.header__link img{
     height: 400%;
     width: 400%;
     vertical-align: middle;
@@ -815,7 +816,7 @@ h1{
     }
     .main{
         min-height: 80vh;
-        padding-top: 250px;
+        padding-top: 200px;
     }
     .contacts__title{
         font-size: 56px;
