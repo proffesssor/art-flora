@@ -510,6 +510,20 @@ h1{
     margin-bottom: 15px;
 }
 
+.developer__link{
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    margin-left: -88px;
+    text-align: center;
+    color: rgba(38, 146, 43, 0.50) !important;
+    text-decoration: underline;
+}
+
+.developer__link:hover{
+    color: rgba(38, 146, 43, 0.80) !important;
+}
+
 @media (max-width: 1399px){
     .designer__figure{
         height: 600px !important;
