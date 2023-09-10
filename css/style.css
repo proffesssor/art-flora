@@ -123,9 +123,16 @@ h1{
 .designer__figure.figure1{
     position: relative;
     top: -60px;
+    height: 877px;
 }
 
 .designer__figure.figure2{
+    position: relative;
+    top: 60px;
+    width: 550px;
+}
+
+.designer__figure.figure3, .designer__figure.figure4{
     position: relative;
     top: -60px;
 }
@@ -133,6 +140,7 @@ h1{
 .designer__wrapper{
     display: flex;
     position: relative;
+    margin-left: 50px;
 }
 
 .designer__text{
@@ -504,7 +512,7 @@ h1{
 
 @media (max-width: 1399px){
     .designer__figure{
-        height: 600px;
+        height: 600px !important;
     }
     .experience{
         padding-top: 120px;
@@ -529,6 +537,12 @@ h1{
     }
     .reviews{
         margin-top: 370px;
+    }
+    .designer__figure.figure2{
+        width: 350px;
+    }
+    .designer__wrapper{
+        margin-left: 0;
     }
 }
 
@@ -594,7 +608,10 @@ h1{
 
 @media (max-width: 1149px){
     .designer__figure{
-        height: 400px;
+        height: 400px !important;
+    }
+    .designer__figure.figure2{
+        width: 250px;
     }
     .mission{
         margin-top: 450px;
@@ -624,7 +641,7 @@ h1{
         margin-right: 0;
     }
     .designer__figure{
-        height: 600px;
+        height: 600px !important;
     }
     .designer__wrapper{
         position: static;
@@ -633,7 +650,7 @@ h1{
         left: 50%;
         margin-left: -330px;
     }
-    .figure3{
+    .figure3, .figure4{
         display: none;
     }
     .services__wrapper{
@@ -642,6 +659,9 @@ h1{
     .mission{
         margin-bottom: 85px;
     }   
+    .designer__figure.figure2{
+        width: 350px;
+    }
 }
 
 @media (max-width: 899px){
@@ -661,10 +681,13 @@ h1{
 
 @media (max-width: 799px){
     .designer__figure{
-        height: 450px;
+        height: 450px !important;
     }
     .figure4{
         top: 60px !important;
+    }
+    .designer__figure.figure2{
+        width: 250px;
     }
 }
 
@@ -1068,7 +1091,7 @@ h1{
 
 @media (max-width: 374px){
     .designer__figure.figure1{
-        height: 350px;
+        height: 350px !important;
     }
     .designer__subtitle{
         width: 220px;
