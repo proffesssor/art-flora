@@ -560,6 +560,12 @@ h1{
     .reviews{
         margin-top: 460px;
     }
+    .stages__arrow{
+        display: none;
+    }
+    .stages__card{
+        width: 225px;
+    }
 }
 
 @media (max-width: 1199px){
@@ -729,9 +735,6 @@ h1{
     .stages img{
         width: 50px;
     }
-    .stages__arrow{
-        display: none;
-    }
     .stages__card{
         margin-bottom: 20px;
     }
@@ -743,6 +746,9 @@ h1{
     }
     .contacts .row{
         width: 100%;
+    }
+    .stages__card{
+        width: 150px;
     }
 }
 
@@ -1054,6 +1060,9 @@ h1{
     }
     .designer__title{
         font-size: 26px;
+    }
+    .stages__card{
+        width: 100px;
     }
 }
 
