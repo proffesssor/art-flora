@@ -527,7 +527,10 @@ h1{
 
 @media (max-width: 1399px){
     .designer__figure{
-        height: 600px !important;
+        height: 600px;
+    }
+    .figure3, .figure4{
+        height: 800px !important;
     }
     .experience{
         padding-top: 120px;
@@ -657,6 +660,10 @@ h1{
 @media (max-width: 1149px){
     .designer__figure{
         height: 400px !important;
+    }
+    .figure3, .figure4{
+        top: 0 !important;
+        height: 600px !important;
     }
     .designer__figure.figure2{
         width: 250px;
