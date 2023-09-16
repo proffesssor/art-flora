@@ -264,6 +264,10 @@ h1{
     position: relative;
 }
 
+.projects__img img{
+    object-fit: cover;
+}
+
 .projects__subtitle{
     position: absolute;
     bottom: 12px;
@@ -614,7 +618,7 @@ h1{
     }
     .projects__bighorizontal{
         width: 400px;
-        height: 280px;
+        height: 250px;
     }
     .projects__wrapper:nth-child(2){
         margin-left: 20px;
@@ -742,6 +746,9 @@ h1{
     .designer__figure.figure2{
         width: 350px;
         top: 60px !important;
+    }
+    .services{
+        padding-top: 60px;
     }
 }
 
