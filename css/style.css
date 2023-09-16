@@ -151,6 +151,7 @@ h1{
     width: 320px;
     height: 350px;
     object-fit: cover;
+    border-radius: 50px;
 }
 
 .designer__title{
@@ -480,7 +481,6 @@ h1{
 
 .designer__img.mobile{
     display: none;
-    object-fit: cover;
 }
 
 .mobile-nav{
