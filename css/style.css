@@ -150,6 +150,7 @@ h1{
 .designer__img{
     width: 320px;
     height: 350px;
+    object-fit: cover;
 }
 
 .designer__title{
@@ -479,6 +480,7 @@ h1{
 
 .designer__img.mobile{
     display: none;
+    object-fit: cover;
 }
 
 .mobile-nav{
