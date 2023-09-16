@@ -227,7 +227,7 @@ h1{
 
 .mission{
     width: 626px;
-    margin: 95px auto 120px;
+    margin: 0px auto 120px;
 }
 
 .block__title{
@@ -528,6 +528,13 @@ h1{
     color: rgba(38, 146, 43, 0.80) !important;
 }
 
+
+@media (max-width: 1459px){
+    .mission{
+        margin-top: 50px;
+    }
+}
+
 @media (max-width: 1399px){
     .designer__figure{
         height: 600px;
@@ -550,20 +557,23 @@ h1{
         margin-bottom: 30px;
     }
     .mission{
-        margin-top: 255px;
+        margin-top: -55px;
     }
     .stages{
         bottom:auto;
         padding-top: 730px;
     }
     .reviews{
-        margin-top: 370px;
+        margin-top: 220px;
     }
     .designer__figure.figure2{
         width: 350px;
     }
     .designer__wrapper{
         margin-left: 0;
+    }
+    .figure2{
+        top: 120px !important;
     }
 }
 
@@ -623,7 +633,7 @@ h1{
         justify-content: center;
     }
     .reviews{
-        margin-top: 460px;
+        margin-top: 370px;
     }
     .stages__arrow{
         display: none;
@@ -661,6 +671,9 @@ h1{
     .reviews__wrapper .row{
         width: 1200px;
     }
+    .main__subtitle{
+        text-align: center;
+    }
 }
 
 @media (max-width: 1149px){
@@ -676,6 +689,12 @@ h1{
     }
     .mission{
         margin-top: 450px;
+    }
+    .figure2{
+        top: 220px !important;
+    }
+    .reviews{
+        margin-top: 520px;
     }
 }
 
@@ -722,6 +741,7 @@ h1{
     }   
     .designer__figure.figure2{
         width: 350px;
+        top: 60px !important;
     }
 }
 
@@ -835,7 +855,7 @@ h1{
         margin-bottom: 20px;
     }
     .reviews{
-        margin-top: 400px;
+        margin-top: 450px;
     }
     .reviews .block__title{
         font-size: 28px;
@@ -1170,6 +1190,9 @@ h1{
     }
     .stages__card{
         width: 100px;
+    }
+    .reviews{
+        margin-top: 400px;
     }
 }
 
