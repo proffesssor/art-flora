@@ -55,7 +55,7 @@
 }
 
 .mobile-nav-button.active{
-	right: 15px;
+	right: 15px !important; 
 	filter: brightness(0);
 }
 

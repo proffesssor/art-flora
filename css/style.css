@@ -267,9 +267,10 @@ h1{
     bottom: 12px;
     left: 15px;
     color: #FFF;
-    width: 80%;
+    width: 85%;
     font-size: 16px;
     z-index: 99;
+    pointer-events: none;
 }
 
 .projects__popup{
@@ -280,7 +281,7 @@ h1{
     left: 0;
     z-index: 9;
     border-radius: 15px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.11) 73.44%, rgba(0, 0, 0, 0.54) 79.69%, rgba(0, 0, 0, 0.60) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.11) 50.44%, rgba(0, 0, 0, 0.54) 79.69%, rgba(0, 0, 0, 0.60) 100%);
 }
 
 .services{
@@ -628,11 +629,14 @@ h1{
     .stages__card{
         width: 225px;
     }
+    .projects__subtitle{
+        font-size: 11px;
+    }
 }
 
 @media (max-width: 1199px){
     .main .container{
-        padding-left: 0;
+        padding-left: 15px;
     }
     .header__logo{
         left: 15px;
@@ -687,7 +691,7 @@ h1{
 @media (max-width: 979px){
     .designer__img.mobile{
         display: block;
-        margin: 0 auto 15px;
+        margin: 0 auto 35px;
     }
     .designer__img{
         display: none;
@@ -864,9 +868,6 @@ h1{
     .contacts .block__title{
         top: 30px;
         font-size: 28px;
-    }
-    .projects__subtitle{
-        font-size: 14px;
     }
 }
 
@@ -1157,8 +1158,10 @@ h1{
         margin-right: 0 !important;
     }
     .projects__subtitle{
-        font-size: 10px;
+        font-size: 9px;
         left: 10px;
+        bottom: 7px;
+        width: 88%;
     }
     .designer__title{
         font-size: 26px;
