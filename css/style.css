@@ -873,6 +873,10 @@ h1{
     .stages__card{
         width: 150px;
     }
+    .stages__card:nth-of-type(4) .stages__subtitle{
+        width: 120px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 649px){
@@ -1200,6 +1204,9 @@ h1{
     }
     .reviews{
         margin-top: 400px;
+    }
+    .stages__card:nth-of-type(4) .stages__subtitle{
+        width: 90px;
     }
 }
 
