@@ -353,6 +353,16 @@ h1{
     margin-bottom: 5px;
 }
 
+.services__card:nth-child(1) img{
+/*     
+    position: absolute;
+    bottom: 0;
+    left: 0; */
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* height: 280px; */
+}
+
 .services__card:nth-child(4) img{
     position: absolute;
     bottom: 0;
